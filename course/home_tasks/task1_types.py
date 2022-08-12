@@ -1,6 +1,7 @@
-# To run tests please run pytest tests/test_task1_types.py -vv
+# To run tests please run `pytest tests/test_task1_types.py -vv`
 
 from math import factorial, sqrt
+from typing import List
 
 
 def get_hello_world():
@@ -21,4 +22,19 @@ def get_factorial(arg1: int) -> int:
 
 def strings_are_equal(arg1: str, arg2: str) -> bool:
     # not case sensitive
+    pass
+
+def get_list_size(arg1: list) -> int:
+    pass
+
+def append_lists(args: List[list]) -> list:
+    pass
+
+def join_tuples(args: List[tuple]) -> tuple:
+    pass
+
+def generate_iterator(arg1: int) -> range:
+    pass
+
+def get_iterator_sum(r: range) -> int:
     pass
